@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import products from './products.json';
 
 /** True = 65%, False = 35% */
@@ -25,7 +27,7 @@ export const deleteProducts = () => new Promise((resolve, reject) => {
       error: 'Server error'
     });
   }
-  const delay = parseInt(Math.random() * 1000);
+const delay = parseInt(Math.random() * 1000);
   setTimeout(() => {
     resolve({ message: 'deleted' });
   }, delay);
