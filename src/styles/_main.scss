@@ -1,0 +1,30 @@
+#app {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+  .container {
+    position: relative;
+    width: 1140px;
+    height: 100vh;
+
+    .btn {
+      padding: 10px 15px;
+      background: #00A11E;
+      border-radius: 2px;
+      color: #fff;
+      font-size: 14px;
+      line-height: 20px;
+      font-family: Source Sans Pro;
+      font-style: normal;
+      font-weight: normal;    
+      transition: all .2s ease-in-out;
+      outline: none;
+      
+      &:hover {
+        transition: all .2s ease-in-out;
+        box-shadow: 0 0 0 3px rgba(0, 163, 30, .6)
+      }  
+    }    
+  }
+} 

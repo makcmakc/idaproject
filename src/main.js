@@ -2,9 +2,12 @@ import Vue from 'vue'
 import App from './App.vue'
 import store from './store'
 
-import VModal from 'vue-js-modal'
- 
-Vue.use(VModal)
+import VueMaterial from 'vue-material'
+import 'vue-material/dist/vue-material.min.css'
+
+import './styles/index.scss'
+
+Vue.use(VueMaterial)
 
 Vue.config.productionTip = false
 
